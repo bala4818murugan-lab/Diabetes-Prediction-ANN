@@ -1,14 +1,14 @@
-Aa🩺 Diabetes Prediction Using Artificial Neural Network (ANN)
+🩺 Diabetes Prediction Using Artificial Neural Network (ANN)
 
 📌 Project Overview
 
-This project uses an Artificial Neural Network (ANN) model to predict diabetes risk based on health-related parameters. The model analyzes patient information and provides a prediction result using Machine Learning techniques.
+This project uses an Artificial Neural Network (ANN) model to predict diabetes risk based on various health-related parameters. The model analyzes patient information and provides a diabetes prediction result using Machine Learning techniques.
 
 🎯 Objective
 
-- To build a diabetes prediction system using ANN.
-- To analyze important factors related to diabetes.
-- To provide quick and efficient prediction using a trained model.
+- To develop a diabetes prediction system using ANN.
+- To analyze important health factors related to diabetes.
+- To provide quick and efficient diabetes risk prediction.
 
 🛠️ Technologies Used
 
@@ -16,13 +16,13 @@ This project uses an Artificial Neural Network (ANN) model to predict diabetes r
 - Pandas
 - NumPy
 - Scikit-learn
-- TensorFlow / Kera's
-- Job lib
-- Stream lit
+- TensorFlow / Keras
+- Joblib
+- Streamlit
 
 📂 Dataset
 
-The dataset contains medical and lifestyle features such as:
+The dataset contains medical and lifestyle-related features such as:
 
 - Age
 - Gender
@@ -41,13 +41,16 @@ The dataset contains medical and lifestyle features such as:
 4. Data Preprocessing
 5. Feature Encoding
 6. Feature Scaling
-7. ANN Model Training
-8. Model Evaluation
-9. Stream lit Deployment
+7. ANN Model Building
+8. Model Training
+9. Model Evaluation
+10. Deployment using Streamlit
 
 🧠 Model Architecture
 
 Artificial Neural Network (ANN)
+
+Architecture:
 
 - Input Layer
 - Dense Hidden Layers
@@ -55,10 +58,10 @@ Artificial Neural Network (ANN)
 
 📊 Model Evaluation
 
-Performance is evaluated using:
+The model performance is evaluated using:
 
 - Accuracy Score
-- Loss
+- Loss Function
 - Confusion Matrix
 - Classification Report
 
@@ -68,9 +71,9 @@ Install Required Libraries
 
 pip install -r requirements.txt
 
-Run Stream lit Application
+Run Streamlit Application
 
-stream lit run app.py
+streamlit run app.py
 
 📁 Project Structure
 
@@ -78,7 +81,7 @@ Diabetes-Prediction-ANN/
 │
 ├── app.py
 ├── diabetes_prediction_model.keras
-├── scalar
+├── scaler.pkl
 ├── label_encoder.pkl
 ├── diabetes_prediction_dataset.csv
 ├── requirements.txt
@@ -87,7 +90,7 @@ Diabetes-Prediction-ANN/
 🌟 Features
 
 - Predicts diabetes risk using ANN.
-- User-friendly Stream lit interface.
+- User-friendly Streamlit interface.
 - Fast prediction based on user input.
 
 🔮 Future Improvements
