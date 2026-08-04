@@ -1,14 +1,14 @@
-🥛 Milk Quality Prediction Using Artificial Neural Network (ANN)
+🩺 Diabetes Prediction Using Artificial Neural Network (ANN)
 
 📌 Project Overview
 
-This project uses an Artificial Neural Network (ANN) model to predict the quality of milk based on different chemical and physical parameters. The model helps to classify milk quality automatically using Machine Learning techniques.
+This project uses an Artificial Neural Network (ANN) model to predict the possibility of diabetes based on various health-related parameters. The model analyzes patient information and provides a diabetes prediction result using Machine Learning techniques.
 
 🎯 Objective
 
-- To analyze milk quality using machine learning.
-- To build an ANN-based classification model.
-- To predict whether the given milk sample is good or bad quality.
+- To develop a diabetes prediction system using ANN.
+- To analyze health parameters affecting diabetes.
+- To provide quick and efficient diabetes risk prediction.
 
 🛠️ Technologies Used
 
@@ -22,25 +22,25 @@ This project uses an Artificial Neural Network (ANN) model to predict the qualit
 
 📂 Dataset
 
-The dataset contains different milk parameters such as:
+The dataset contains medical and lifestyle-related features such as:
 
-- pH
-- Temperature
-- Taste
-- Odor
-- Fat
-- Turbidity
-- Colour
-- Other quality-related features
+- Age
+- Gender
+- BMI
+- Blood Glucose Level
+- HbA1c Level
+- Hypertension
+- Heart Disease
+- Smoking History
 
 ⚙️ Machine Learning Workflow
 
 1. Data Collection
-2. Data Cleaning
+2. Data Preprocessing
 3. Exploratory Data Analysis (EDA)
-4. Data Preprocessing
-5. Feature Encoding
-6. Model Building using ANN
+4. Feature Encoding
+5. Feature Scaling
+6. ANN Model Building
 7. Model Training
 8. Model Evaluation
 9. Deployment using Streamlit
@@ -52,52 +52,51 @@ Artificial Neural Network (ANN)
 Architecture:
 
 - Input Layer
-- Dense Hidden Layers
-- Output Layer
+- Multiple Dense Hidden Layers
+- Output Layer (Binary Classification)
 
-📊 Performance
+📊 Model Evaluation
 
 The model is evaluated using:
 
-- Accuracy
-- Loss
+- Accuracy Score
+- Loss Function
 - Confusion Matrix
 - Classification Report
 
 🚀 How to Run the Project
 
-Install Required Libraries
+Install Dependencies
 
 pip install -r requirements.txt
 
-Run Streamlit Application
+Run Streamlit App
 
 streamlit run app.py
 
 📁 Project Structure
 
-Milk-Quality-Prediction/
+Diabetes-Prediction-ANN/
 │
 ├── app.py
-├── milknew.csv
-├── milk_quality_model.keras
+├── diabetes_prediction_model.keras
 ├── scaler.pkl
 ├── label_encoder.pkl
+├── diabetes_prediction_dataset.csv
 ├── requirements.txt
 └── README.md
 
 🌟 Features
 
-- Predict milk quality instantly.
-- User-friendly Streamlit interface.
-- ANN-based accurate prediction system.
+- Predicts diabetes risk using ANN.
+- Simple and user-friendly Streamlit interface.
+- Fast prediction based on user input.
 
 🔮 Future Improvements
 
-- Add larger datasets.
-- Improve model accuracy.
-- Deploy as a web application.
-- Add real-time milk testing integration.
+- Improve model accuracy with larger datasets.
+- Add real-time health monitoring features.
+- Deploy the application using cloud platforms.
 
 👨‍💻 Author
 
